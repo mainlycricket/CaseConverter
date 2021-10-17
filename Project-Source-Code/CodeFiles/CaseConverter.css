@@ -1,0 +1,50 @@
+.title {
+    font-size: 48px;
+    background-color: rgb(53, 224, 219);
+    text-align: center;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item-button {
+    padding-top: 200px;
+    padding-left: 50px;
+    border: 2x solid blue;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+textarea {
+    font-size: 18px;
+    border: 5px solid black;
+    scroll-behavior: auto;
+    margin: 10px;
+}
+
+button {
+    background-color: rgba(255, 68, 0, 0.575);
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#save-text-file {
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    border: 2px solid black;
+    font-size: 22px;
+} 

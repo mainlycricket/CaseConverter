@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <title>Case Converter</title>
+    <meta charset = "utf-8"/>
+    <link rel = "stylesheet" href = "C:\Users\Tushar\Documents\GitHub\CaseConverter\Project-Source-Code\CodeFiles\CaseConverter.css" type = "text/css"/>
+
+</head>
+<body>
+
+    <header>
+
+        <div class="title">Case Converter</div> <br/>
+
+    </header>
+
+    <label for = "text"> Enter text here: </label> <br/> <br/>
+
+    <div class = "flex-container">
+
+        <div class = "flex-item-text">
+            <textarea rows = "25" cols = "100" id = "text"></textarea>
+        </div>
+
+        <div class = "flex-item-button">
+            <button id = "upper-case"> Upper Case </button> <br/>
+            <button id = "lower-case"> Lower Case </button> <br/>
+            <button id = "proper-case"> Proper Case </button> <br/>
+            <button id = "sentence-case"> Sentence Case </button> <br/>
+            <button id = "save-text-file" onclick="download('text.txt', document.getElementById('text').value);"> Save Text File </button>
+        </div>
+
+    </div>
+
+</body>
+
+<script src = "C:\Users\Tushar\Documents\GitHub\CaseConverter\Project-Source-Code\CodeFiles\CaseConverter.js"></script>
+
+</html>
